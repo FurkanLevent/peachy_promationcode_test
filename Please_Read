@@ -1,0 +1,23 @@
+
+Test automation project on https://www.peachy.co.uk/ using Selenium JUNIT and TestNG.
+ 
+     Programing Language: JAVA
+     Dependencies : selenium 3.141.59, testng 6.14.3, log4j 2.10.0,  Junit 4.11 
+     Driver : ChromeDriver
+     IDE : IntelliJ IDEA 
+     
+
+
+
+Note:
+
+1) Please be sure that Selenium google driver is setted in your Environment Variables.
+
+2) Please replace the values given below your environment google driver path on TestNG_Search.java and JUnit_Search.java.
+
+
+
+System.setProperty("webdriver.chrome.driver", "/Users/furkanleventoturaklioglu/Documents/Automation/peachy/src/main/java/Drivers/chromedriver");
+//please check google driver for linux environment...
+System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
+
